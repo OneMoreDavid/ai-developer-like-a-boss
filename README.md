@@ -1,6 +1,3 @@
-# ai-developer-like-a-boss
-A place to stash AI study stuff
-
 # OpenAI Playground
 
 to start, we will use; [openAI Playground](https://platform.openai.com/playground)
@@ -49,3 +46,9 @@ You also have the option to use your own open-source LLM that you can download a
 
 **Llama 3**. Free. Includes multi-modality (accepts texts and images in the prompt).
 How To Setup: to "Section 13: Using Open Source Models" in this course where I'll walk you through the setup process.
+
+---
+
+# Prompting often requires iteration. 
+
+That means prompting, seeing what the output is (and testing it out if it's code), and then prompting again. Sometimes it even means starting over again because you realized you went down the wrong path. Learning prompt engineering skills will help avoid the need for constant iteration because it'll help ensure the output is the best it can be the first time. But you haven't really learned any prompt engineering skills yet - and that's okay, we're just getting started!
