@@ -61,3 +61,26 @@
 **Prompt Engineering is a Skill NOT a Job**
 
 - Interesting Movie about [AlphaGo](https://www.youtube.com/watch?v=WXuK6gekU1Y)
+
+---
+
+# Chosing an LLM
+
+to start, we will use; [openAI Playground](https://platform.openai.com/playground)
+
+``` 
+The OpenAI Playground is a tool that anyone can use to have more control over their prompting, such as using different types of AI models and adjusting hyperparameters like Temperature. The Playground is particularly useful for developers and researchers to test different AI models using the API.
+
+In short, the Playground gives you more control than you have in ChatGPT. 
+```
+
+# Multi-Modality
+
+- more than just text
+- give it things like images 
+- example, give it a photo, then in text, give it a persona and ask it a question 
+- not only can it look at images, it can gerenate images
+- can also execute python code 
+
+Important to remember that **LLMs are NOT calculators, they are word guessing machines**
+
