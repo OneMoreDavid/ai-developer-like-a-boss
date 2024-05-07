@@ -1,6 +1,6 @@
 # Snake Game
 
-I'm using Claude SOnnet for this: 
+I'm using Claude Sonnet for this: 
 
 ```prompt
 Create a snake game
@@ -69,5 +69,6 @@ while True:
     window.addch(snake[0][0], snake[0][1], curses.ACS_CKBOARD)
 ```
 
-This worked pretty much on the first run, but is not keeping a score anywhere that I can see. Also, not sure if the snake grows after eating a thing. 
+This worked pretty much on the first run, but is not keeping a score anywhere that I can see. 
 
+Also the game ends as soon as you crash, no option to restart unless I run the code again, can we improve on this? 
