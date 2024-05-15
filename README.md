@@ -56,3 +56,25 @@ That means prompting, seeing what the output is (and testing it out if it's code
 ---
 
 We can use Bing for some simple **free** image creation using AI. [Create Images with Bing](https://www.bing.com/images/create)
+
+---
+
+# The Reversal Curse
+
+- Sometimes an LLM will not know an answer specifically
+- but it knows the answer in context
+
+```input
+    *Who is Mary Lee Pfeiffer*
+```
+
+```output
+    *I don't know*
+```
+
+Yet if you instead ask it, *Who is Tom Cruises Mother*, the answer returned is; **Mary Lee Pfeiffer**
+
+I tried this using **Simone Lyons** as an example search:
+
+![reversal curse](./00-assets/reversal-curse.png)
+
