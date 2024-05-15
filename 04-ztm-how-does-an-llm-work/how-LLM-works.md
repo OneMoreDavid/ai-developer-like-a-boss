@@ -47,3 +47,39 @@ This can be further emphasised by asking ChatGPT to roll a dice. In Mathematics,
 Another example of what should be random not being random and instead based on statistical data observed when training is asking ChatGPT **to pick a number between 1 and 30**, it will typically return the number **17**
 
 Again, the chatBot believes the answer to be truly random, yet it will repeatedly bring **17** as the first answer in a new chat responding to that question. 
+
+---
+
+# Inside an LLM
+
+ChatGPT 3 was trained on about 3 billion tokens, which is about 45TB of text data. 
+
+GPT has about 96 layers and 175 billion paremeters
+
+![GPT 3, layers & Parameters](gpt-3-layers-paremeters.png)
+
+There is a limit to the number of input tokens, for example, as of May 2024, **Gemini 1.5 pro** from Google *will* have an input limit of **1 million tokens**. Currently sitting at 128,000 tokens (context window), some people are getting access to 1 million tokens. The number of input or context tokens defines how much input the LLM can absorb, how many tokens it can pass through its layers. 
+
+![Context tokens](comparing-context-length-tokens.png)
+
+## GPT 3
+
+- OpenAI
+- 175 billion parameters
+- 96 layers
+- trained on 300 billion tokens 
+
+
+## Llama 2
+
+- This is the OpenSource model from Meta
+- has 7 billion parameters 
+- 32 layers
+- trained on 2 trillion tokens
+
+**More tokens trained on AND more parameters = scaling, where more equals better** but there are always trade-offs. 
+
+# The Transformer model 
+
+The Transformer model is a type of neural network architecture that has revolutionized the field of natural language processing (NLP) and has applications in other areas like computer vision. It was introduced in the paper "Attention is All You Need" by Vaswani et al. in 2017.
+
