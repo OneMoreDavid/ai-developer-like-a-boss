@@ -83,3 +83,45 @@ There is a limit to the number of input tokens, for example, as of May 2024, **G
 
 The Transformer model is a type of neural network architecture that has revolutionized the field of natural language processing (NLP) and has applications in other areas like computer vision. It was introduced in the paper "Attention is All You Need" by Vaswani et al. in 2017.
 
+---
+
+# Training Process
+
+![inputs](llm-pre-training.png)
+
+## Pre-Training
+
+- essentially looking for the patterns 
+- all of this mass volumes of texts etc is processed
+- this is how the LLM starts adding weights for what words typically follow in that sentance etc
+
+The output from this trained model = the **base model**
+
+## Base Model
+
+- this is not an LLM
+- a base model is all about the weights
+- it can't speak to you in a prompt/answer type scenario 
+- all of those **base models** need to be fine-tuned
+- it's basically just gobbled up loads of text data and looked for patterns in sentence etc
+
+## Fine Tuning
+
+- initially it was just almost random data
+- We now put higher quality inputs into the model
+- You put *high-brow* questions into the model, but we also provide high quality answers
+- again as we pass this through the model, it self-adjusts it's weights so that the ideal answer would come out of it, this is where the magic happens
+- if it can answer high quality questions with high quality answers it uses that fine tuning to update the weights from the base model so that less high quality questions receive high quality (relative) answers
+
+## Reinforced Learning through Human Feedback (RLHF)
+
+This is where a human or humans score the output from the base-model, this helps the model understand what makes a good answer etc
+
+## Assistnat Model
+
+This is like the ChatGPTs of the world - the chatbots, the interfaces to the LLM. 
+
+![Pre-training thru to the Assistant Model](creating-the-assistant-model.png)
+
+--- 
+
