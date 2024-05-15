@@ -52,3 +52,7 @@ How To Setup: to "Section 13: Using Open Source Models" in this course where I'l
 # Prompting often requires iteration. 
 
 That means prompting, seeing what the output is (and testing it out if it's code), and then prompting again. Sometimes it even means starting over again because you realized you went down the wrong path. Learning prompt engineering skills will help avoid the need for constant iteration because it'll help ensure the output is the best it can be the first time. But you haven't really learned any prompt engineering skills yet - and that's okay, we're just getting started!
+
+---
+
+We can use Bing for some simple **free** image creation using AI. [Create Images with Bing](https://www.bing.com/images/create)
