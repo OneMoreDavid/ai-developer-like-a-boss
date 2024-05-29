@@ -78,3 +78,11 @@ I tried this using **Simone Lyons** as an example search:
 
 ![reversal curse](./00-assets/reversal-curse.png)
 
+---
+
+# LLM Prompt Library
+
+This is a bit of a naff thing that people sell, a bunch of 'starter questions' for those that don't know what they're doing with an LLM. 
+
+We don't think there's much value in this specifically. but for reference, here is the [Anthropic prompt library](https://docs.anthropic.com/en/prompt-library/library) to get you started. 
+
